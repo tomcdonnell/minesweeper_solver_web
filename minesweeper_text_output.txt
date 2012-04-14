@@ -1,0 +1,1062 @@
+tom@tom-desktop Minesweeper Text> ./minesweeper_text 16 32 99
+Using user supplied settings of 16 rows, 32 cols, 99 mines.
+
+Minefield map (unexplored territory hidden).
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Explore which square? (row col) 0 0
+
+Minefield map (unexplored territory hidden).
+0 0 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 1 - 3 2 3 - - - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 - - - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 2 - - - - - - - - - - - - - - - - - - - - - - - - - 
+0 1 1 1 0 0 2 - - - - - - - - - - - - - - - - - - - - - - - - - 
+1 3 - 2 0 0 1 - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - 2 0 0 1 1 2 - - - - - - - - - - - - - - - - - - - - - - - 
+1 3 - 3 1 1 0 0 1 2 3 3 - - - - - - - - - - - - - - - - - - - - 
+0 1 - - - 1 0 0 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 - - - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 - - - - - - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 3 2 2 2 2 - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Updating probability map.
+ Applying simple tests.
+  Success at (2,2).
+  Success at (2,6).
+  Success at (3,6).
+  Success at (4,1).
+  Success at (4,6).
+  Success at (5,3).
+  Success at (6,3).
+  Success at (6,7).
+  Success at (7,5).
+  Success at (7,8).
+  Success at (7,9).
+  Success at (7,10).
+  Success at (8,1).
+  Success at (9,2).
+  Success at (9,9).
+  Success at (9,10).
+  Success at (10,6).
+  Success at (10,7).
+  Success at (10,8).
+  Success at (10,9).
+  Success at (11,0).
+  Success at (11,5).
+  Success at (11,6).
+ Applying simple tests.
+  Success at (0,2).
+  Success at (1,4).
+  Success at (1,5).
+  Success at (1,6).
+  Success at (6,8).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (12,4) using (12,5).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (12,1) using (12,2).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (12,5) using (12,4).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 - - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F - - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F - - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 2 F - - - - - - - - - - - - - - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 - - - - - - - - - - - - - - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 - - - - - - - - - - - - - - - - - - - - - - 
+- - F 2 0 0 1 1 2 F F F - - - - - - - - - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 - - - - - - - - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 - - - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 - - - - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 - - - - - - - - - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F - - - - - - - - - - - - - - - - - - - - - - - - 
+F - - F - - 3 - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+Updating probability map.
+ Applying simple tests.
+  Success at (0,7).
+  Success at (5,8).
+  Success at (5,9).
+  Success at (7,2).
+  Success at (11,8).
+  Success at (11,9).
+ Applying simple tests.
+  Success at (4,7).
+  Success at (5,0).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F - - - - - - - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 2 F F - - - - - - - - - - - - - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 - - - - - - - - - - - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 - - - - - - - - - - - - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F - - - - - - - - - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 - - - - - - - - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 - - - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 - - - - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 - - - - - - - - - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 - - - - - - - - - - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - 1 0 0 1 2 - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (0,8).
+  Success at (4,8).
+  Success at (4,9).
+  Success at (4,10).
+  Success at (13,7).
+  Success at (13,10).
+  Success at (14,7).
+ Applying simple tests.
+  Success at (11,10).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (14,11) using (15,11).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 - - - - - - - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F - - - 1 1 1 2 - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 - - - - - - - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 - - - - - - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 - - - - - - - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 - - - - - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 - - - - - - - - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 - - - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 - - - - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 - - - - - - - - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F - - - - - - - - - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 - - - - - - - - - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 - - - - - - - - - - - - - - - - - - - - 
+- - - - - - F 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (1,11).
+  Success at (2,12).
+  Success at (2,13).
+  Success at (3,10).
+  Success at (4,14).
+ Applying simple tests.
+  Success at (0,12).
+  Success at (1,8).
+  Success at (2,14).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (4,15) using (5,15).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (5,15) using (4,15).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (6,13) using (6,12).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (8,11) using (7,11).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (11,11) using (10,11).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (14,6) using (13,6).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 - - - - - - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 - - - - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F - - - - - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 - - - - - - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 - - - - - - - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 - - - - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 - - 2 - - - - - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 - - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 - - - - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 - - - - - - - - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 - - - - - - - - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 - - - - - - - - - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 - - - - - - - - - - - - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (0,13).
+  Success at (1,14).
+  Success at (2,15).
+ Applying simple tests.
+  Success at (1,15).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (9,12) using (9,11).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F - - - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 - - - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F - - - - - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 - - - - - - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 - - - - - - - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 - - - - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 - - 2 - - - - - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 - 3 - - - - - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 - 2 - - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 - - - - - - - - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 - - - - - - - - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 - - - - - - - - - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 - - - - - - - - - - - - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (1,16).
+  Success at (2,16).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 - - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 - - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 - - - - - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 - - - - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 - - - - - - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 - - - - - - - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 - - - - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 - - 2 - - - - - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 - 3 - - - - - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 - 2 - - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 - - - - - - - - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 - - - - - - - - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 - - - - - - - - - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 - - - - - - - - - - - - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (1,17) using (0,17).
+ Applying simple tests.
+  Success at (3,17).
+  Success at (4,15).
+  Success at (6,15).
+ Applying simple tests.
+  Success at (2,17).
+  Success at (6,14).
+ Applying simple tests.
+  Success at (0,17).
+  Success at (6,12).
+  Success at (7,11).
+  Success at (9,11).
+  Success at (10,11).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (9,13) using (8,13).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F - - - - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 - - - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 - - - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F - - - - - - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 - - - - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 - - - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 - - - - - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 - - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F - - - - - - - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 - - - - - - - - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 - - - - - - - - - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 - - - - - - - - - - - - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (3,18).
+  Success at (4,16).
+  Success at (4,17).
+  Success at (4,18).
+  Success at (10,12).
+  Success at (10,13).
+ Applying simple tests.
+  Success at (8,13).
+ Applying simple tests.
+  Success at (7,14).
+  Success at (7,15).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (7,16) using (6,16).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 - - - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 - - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 - - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F - - - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 - - - - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 - - - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 - - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 - - - - - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 - - - - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 - - - - - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 - - - - - - - - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 - - - - - - - - - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 - - - - - - - - - - - - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (4,19).
+  Success at (8,17).
+  Success at (11,14).
+  Success at (12,12).
+ Applying simple tests.
+  Success at (3,19).
+  Success at (6,16).
+  Success at (8,15).
+ Applying simple tests.
+  Success at (5,17).
+  Success at (5,18).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F - - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 - - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 - - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 - - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 - - - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 - - - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 - - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 - - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 - - - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 - - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 - - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 - - - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 - - - - - - - - - - - - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 - - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (5,20).
+  Success at (6,18).
+  Success at (6,19).
+  Success at (7,18).
+  Success at (8,18).
+  Success at (9,17).
+  Success at (9,18).
+  Success at (11,18).
+  Success at (12,18).
+  Success at (13,14).
+  Success at (13,15).
+  Success at (13,16).
+  Success at (13,17).
+  Success at (13,18).
+ Applying simple tests.
+  Success at (4,20).
+  Success at (13,12).
+  Success at (14,11).
+ Applying simple tests.
+  Success at (3,20).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 - - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 - - - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F - - - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 - - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F - - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 - - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 - - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F - - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 - - - - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 1 - - - - - - - - - - - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (6,20).
+  Success at (7,19).
+  Success at (7,20).
+  Success at (11,19).
+  Success at (12,19).
+  Success at (14,13).
+  Success at (14,14).
+  Success at (14,15).
+  Success at (14,17).
+  Success at (14,18).
+  Success at (14,19).
+ Applying simple tests.
+  Success at (9,19).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (5,21) using (6,21).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (6,21) using (5,21).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 - - - - - - - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F - - - - - - - - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 - - - - - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F - - - - - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 - - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 - - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 - - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F - - - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 - - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 - - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 - - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 - - - - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (8,20).
+  Success at (8,21).
+  Success at (13,20).
+  Success at (14,21).
+ Applying simple tests.
+  Success at (7,21).
+  Success at (12,20).
+ Applying simple tests.
+  Success at (5,21).
+  Success at (10,20).
+ Applying simple tests.
+  Success at (4,21).
+ Applying simple tests.
+  Success at (2,21).
+ Applying simple tests.
+  Success at (2,19).
+ Applying simple tests.
+  Success at (0,18).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (14,22) using (15,22).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 - - - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 - - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 - - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 - - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 - - - - - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 - - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F - - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F - - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 - - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 - - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 - - - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F - - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 - - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (0,24).
+  Success at (3,23).
+  Success at (3,24).
+  Success at (4,22).
+  Success at (5,22).
+  Success at (8,22).
+  Success at (9,21).
+  Success at (9,22).
+  Success at (10,21).
+  Success at (12,21).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (1,25) using (2,25).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (2,25) using (1,25).
+ Applying simple tests.
+  Success at (3,25).
+ Applying simple tests.
+  Success at (1,25).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F - - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 - - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F - - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 - - - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 - - - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 - - - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 - - - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 - - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F - - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 - - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F - - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (1,26).
+  Success at (5,23).
+  Success at (6,23).
+  Success at (7,23).
+  Success at (8,23).
+  Success at (9,23).
+  Success at (10,22).
+  Success at (11,22).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 - - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 - - - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 - - - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 - - - - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F - - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 - - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F - - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 - - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F - - - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 - - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 - - - - - - - - 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (0,27).
+  Success at (1,27).
+  Success at (2,27).
+  Success at (3,26).
+  Success at (8,24).
+  Success at (10,24).
+  Success at (12,23).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (6,25) using (5,25).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 - - - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 - - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 - - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 - - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F - - - - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 - - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 - - - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 - - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 - - - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F - - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 - - - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 - - - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F - - - - - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F - - - - - - - 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (0,28).
+  Success at (1,29).
+  Success at (2,29).
+  Success at (3,27).
+  Success at (3,28).
+  Success at (3,29).
+  Success at (10,25).
+  Success at (11,24).
+  Success at (11,25).
+ Applying simple tests.
+  Success at (8,25).
+ Applying simple tests.
+  Success at (7,25).
+  Success at (7,26).
+ Applying simple tests.
+  Success at (5,25).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 - 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 - 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 - 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F - 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 - 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F - - - - - 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 - - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 - - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 - - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 - - - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 - - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 - - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 - - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F - - - - - - - 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (2,30).
+  Success at (6,26).
+  Success at (7,27).
+  Success at (9,26).
+  Success at (12,25).
+  Success at (12,26).
+  Success at (12,27).
+ Applying simple tests.
+  Success at (0,30).
+  Success at (4,28).
+  Success at (4,30).
+  Success at (8,27).
+  Success at (10,27).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 - - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 - - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 - - - 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 - - - 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F - - - 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 - - - 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 - - - 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 - - - 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 - - - - - - - - - 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 - - - - - - - - - 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (11,28).
+  Success at (12,28).
+  Success at (13,25).
+  Success at (13,26).
+  Success at (13,28).
+ Applying simple tests.
+  Success at (13,23).
+  Success at (14,22).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (5,30) using (5,31).
+ Applying simple tests.
+  Success at (6,28).
+  Success at (7,28).
+  Success at (8,28).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 - - - - 1 0 0 0 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+  Success at (14,24).
+  Success at (14,25).
+  Success at (14,26).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+- - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+Explore which square? (row col) 15 0
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+1 - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+
+Updating probability map.
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+1 - - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+Explore which square? (row col) 15 1
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+- - - - - - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+1 1 - - - 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+
+Updating probability map.
+ Applying simple tests.
+ Applying tests involving 1 other square.
+  Success at (15,1) using (15,0).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F - - F - - 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+- 3 2 2 3 - 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+1 1 0 0 1 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+Press any key.
+Updating probability map.
+ Applying simple tests.
+  Success at (15,0).
+  Success at (15,4).
+ Applying simple tests.
+  Success at (13,6).
+  Success at (14,4).
+ Applying simple tests.
+  Success at (12,3).
+  Success at (14,1).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F F 2 F F 3 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+F 3 2 2 3 F 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+1 1 0 0 1 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+Press any key.
+
+Updating probability map.
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - - 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F F 2 F F 3 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+F 3 2 2 3 F 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+1 1 0 0 1 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+Explore which square? (row col) 6 31
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F - 2 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 - - 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F F 2 F F 3 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+F 3 2 2 3 F 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+1 1 0 0 1 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+
+Updating probability map.
+ Applying simple tests.
+  Success at (5,30).
+  Success at (7,29).
+  Success at (8,30).
+ Applying simple tests.
+ Applying tests involving 1 other square.
+ Applying tests involving 2 other squares.
+ Applying tests involving 3 other squares.
+Exploring confirmed clear squares...
+
+Minefield map (unexplored territory hidden).
+0 0 1 2 F F 2 1 1 0 0 0 1 1 1 1 F 2 2 2 1 0 0 0 1 F F 1 1 F 2 F 
+0 0 1 F 3 2 3 F 3 2 1 1 1 F 1 1 1 3 F F 2 1 0 0 1 3 3 2 1 1 2 1 
+0 0 1 1 1 0 3 F F 4 F 1 1 1 2 2 2 3 F 4 F 3 2 1 0 1 F 1 0 1 1 1 
+0 0 0 0 0 0 2 F F F 2 1 0 0 1 F F 2 1 2 2 F F 3 3 4 4 3 2 2 F 1 
+0 1 1 1 0 0 2 3 4 2 1 0 0 0 1 3 3 2 1 1 2 2 3 F F F F F 4 F 3 1 
+1 3 F 2 0 0 1 F 2 2 3 2 1 0 0 1 F 2 2 F 1 1 2 3 3 4 F 4 F F 4 1 
+1 F F 2 0 0 1 1 2 F F F 2 1 1 1 2 F 2 1 1 2 F 2 0 1 1 2 3 F F 2 
+1 3 3 3 1 1 0 0 1 2 3 3 3 F 2 2 2 2 2 1 1 2 F 2 0 1 1 1 2 3 4 F 
+0 1 F 2 F 1 0 0 0 0 0 1 F 3 F 3 F 1 1 F 2 2 1 2 2 3 F 2 2 F 2 1 
+0 1 1 2 1 1 0 0 0 1 1 2 1 2 2 F 2 2 3 4 F 1 1 2 F F 3 F 3 2 1 0 
+0 0 0 0 0 0 1 1 1 1 F 2 2 2 2 1 1 1 F F 3 2 3 F 4 2 2 2 F 1 0 0 
+1 1 0 0 0 1 3 F 2 1 2 3 F F 1 0 0 1 2 2 2 F 4 F 3 1 0 1 1 1 0 0 
+F 3 2 2 2 2 F F 2 0 2 F 5 3 2 0 0 0 1 1 2 3 F 5 F 2 1 1 1 0 0 0 
+F F 2 F F 3 3 2 1 0 2 F 4 F 1 1 1 1 1 F 1 2 F 5 F 2 2 F 2 0 0 0 
+F 3 2 2 3 F 2 1 0 0 1 2 F 2 1 2 F 2 1 1 1 1 2 F 2 2 3 F 2 0 0 0 
+1 1 0 0 1 2 F 1 0 0 0 1 1 1 0 2 F 2 0 0 0 0 1 1 1 1 F 2 1 0 0 0 
+Press any key.
+
+Congratulations.
+You have successfully mapped the entire minefield.
+
+Play again? (y/n)
